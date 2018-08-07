@@ -73,6 +73,7 @@
             this.Games = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.About = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.labelFriendingStatus = new System.Windows.Forms.Label();
             this.labelCaptchaCount = new System.Windows.Forms.Label();
             this.labelMessageCount = new System.Windows.Forms.Label();
             this.labelTotalGroups = new System.Windows.Forms.Label();
@@ -82,7 +83,6 @@
             this.textBoxGroups = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxMessage = new System.Windows.Forms.TextBox();
-            this.labelFriendingStatus = new System.Windows.Forms.Label();
             this.tabControlMain.SuspendLayout();
             this.tabPageSearch.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -541,6 +541,18 @@
             this.tabPage2.Text = "Френдинг";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // labelFriendingStatus
+            // 
+            this.labelFriendingStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelFriendingStatus.AutoSize = true;
+            this.labelFriendingStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelFriendingStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.labelFriendingStatus.Location = new System.Drawing.Point(764, 170);
+            this.labelFriendingStatus.Name = "labelFriendingStatus";
+            this.labelFriendingStatus.Size = new System.Drawing.Size(51, 13);
+            this.labelFriendingStatus.TabIndex = 9;
+            this.labelFriendingStatus.Text = "Статус:";
+            // 
             // labelCaptchaCount
             // 
             this.labelCaptchaCount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -647,18 +659,6 @@
             this.textBoxMessage.Name = "textBoxMessage";
             this.textBoxMessage.Size = new System.Drawing.Size(741, 146);
             this.textBoxMessage.TabIndex = 0;
-            // 
-            // labelFriendingStatus
-            // 
-            this.labelFriendingStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelFriendingStatus.AutoSize = true;
-            this.labelFriendingStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelFriendingStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.labelFriendingStatus.Location = new System.Drawing.Point(764, 170);
-            this.labelFriendingStatus.Name = "labelFriendingStatus";
-            this.labelFriendingStatus.Size = new System.Drawing.Size(51, 13);
-            this.labelFriendingStatus.TabIndex = 9;
-            this.labelFriendingStatus.Text = "Статус:";
             // 
             // MainForm
             // 

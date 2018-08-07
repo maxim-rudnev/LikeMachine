@@ -486,5 +486,6 @@ namespace LikeMachine
 			labelMessageCount.Text = string.Format("Сообщений разослано: {0}", _messageCount);
 			labelCaptchaCount.Text = string.Format("Капчи введено: {0}", _captchaCount);
 		}
-	}
+        
+    }
 }
